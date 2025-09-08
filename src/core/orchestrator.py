@@ -1,11 +1,8 @@
-# src/core/orchestrator.py
-
 from src.agents.planner import get_planner_agent
 from src.agents.content import get_content_agent
 from src.agents.practice import get_practice_agent
 from src.agents.evaluator import get_evaluator_agent
 from src.agents.motivator import get_motivator_agent
-
 
 class TutorOrchestrator:
     def __init__(self):
@@ -68,12 +65,10 @@ class TutorOrchestrator:
             yield {"type": "final_summary", "data": {"summary": summary, "offer_retest": False, "score": score}}
 
     def run_retest(self):
-        """ A separate generator for handling the re-test loop. """
-        self.quiz_results = []  # Reset results for the re-test
+        self.quiz_results = []
         yield {"type": "content", "data": {"topic": f"Re-Test: {self.main_topic}",
                                            "explanation": "Let's try that again! Here is a new set of questions on the whole topic."}}
 
-        # For a re-test, we generate a comprehensive quiz on the main topic
         quiz_data = self.practice_agent.invoke({"sub_topic": self.main_topic})
         questions = quiz_data.get("questions", [])
 
