@@ -233,7 +233,7 @@ if 'current_question' not in st.session_state:
     st.session_state.current_question = {}
 
 # --- Main App ---
-st.title("🥷 Coding Ninja's AI Learning Assistant")
+st.title("🥷 Agentic AI Learning Assistant")
 st.caption("An Agentic Learning Tool by "
            "[Ayush Ranjan](https://www.linkedin.com/in/ayushxranjan/)")
 
