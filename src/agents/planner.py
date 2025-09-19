@@ -37,7 +37,7 @@ def get_planner_agent():
     }}
 
     Now, generate the roadmap for the user's input: "{user_input} but it can't be more than 4-5 Steps it should be strictly not more than 5 steps it can be 2-3 also if required 4-5 but not more than this"
-    Note:- If input doesn't make sense , or say like Hi Hello , anything which is not related to any topic or any question , THEN THE TOPIC WILL BE "CODING NINJAS Company and it's History foundation and everything not technical"
+    Note:- If input doesn't make sense , or say like Hi Hello , anything which is not related to any topic or any question , THEN THE TOPIC WILL BE "Why people should Never ask wrong Questions" just small 2 steps roadmap
     """
     prompt = PromptTemplate(
         template=planner_prompt_template,
