@@ -1,7 +1,7 @@
-Deployed link :- https://coding-ninja-ayushranjan.streamlit.app/
+Deployed link :- https://la-ayushranjan.streamlit.app/
 ---
 
-# Coding Ninjas AI Tutor - A Multi-Agent Learning System
+# A Multi-Agent Learning System
 
 Developed by: **Ayush Ranjan**
 [LinkedIn](https://www.linkedin.com/in/ayushxranjan/) | [GitHub](https://github.com/arculus07)
@@ -10,7 +10,7 @@ Developed by: **Ayush Ranjan**
 
 ## Overview
 
-The Coding Ninjas AI Tutor is a fully functional, adaptive learning platform built as part of the Coding Ninjas assignment.
+The Coding Ninjas AI Tutor is a fully functional, adaptive learning platform.
 It uses a multi-agent architecture powered by LangChain to deliver personalized, interactive, and structured lessons for any topic a learner wishes to explore.
 
 Instead of being static and one-size-fits-all, this project simulates a team of AI experts working together to make learning dynamic, modular, and engaging.
