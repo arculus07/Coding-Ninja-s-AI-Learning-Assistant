@@ -1,4 +1,4 @@
-Deployed link :- https://la-ayushranjan.streamlit.app/
+Deployed link :- [https://la-ayushranjan.streamlit.app/](https://coding-ninja-ayushranjan.streamlit.app/)
 ---
 
 # A Multi-Agent Learning System
