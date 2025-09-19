@@ -3,7 +3,7 @@ from src.core.orchestrator import TutorOrchestrator
 import textwrap
 
 # --- Page Configuration ---
-st.set_page_config(page_title="Coding Ninja's AI Learning Assistant",
+st.set_page_config(page_title="AI Learning Assistant",
                    page_icon="🥷",
                    layout="wide")
 
@@ -203,9 +203,9 @@ def handle_end_session():
 
 # --- Sidebar "About" Section ---
 with st.sidebar:
-    st.image("https://placehold.co/400x150/ffffff/FF6200?text=Coding+Ninjas", use_container_width=True)
+    st.image("https://placehold.co/400x150/ffffff/FF6200?text=Ayush+Ranjan", use_container_width=True)
     st.header("About this Project")
-    st.markdown("This is an adaptive AI Tutor built for a **Coding Ninjas** assignment. "
+    st.markdown("This is an adaptive AI Tutor"
                 "It uses a multi-agent system with LangChain to create a personalized learning journey.")
     st.subheader("Developed By")
     st.markdown("**Ayush Ranjan**")
